@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeometricActivityIndicator_Example' do
+  pod 'GeometricActivityIndicator', :path => '../'
+
+  target 'GeometricActivityIndicator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
