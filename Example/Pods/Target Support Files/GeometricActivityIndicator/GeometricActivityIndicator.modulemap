@@ -1,0 +1,6 @@
+framework module GeometricActivityIndicator {
+  umbrella header "GeometricActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_GeometricActivityIndicator_Tests {
+  umbrella header "Pods-GeometricActivityIndicator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

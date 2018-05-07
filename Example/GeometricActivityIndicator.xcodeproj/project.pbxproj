@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C63DF120DE697993F23B05B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		18397B646C26A7C6225AF2AF /* GeometricActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GeometricActivityIndicator.podspec; path = ../GeometricActivityIndicator.podspec; sourceTree = "<group>"; };
+		0C63DF120DE697993F23B05B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		18397B646C26A7C6225AF2AF /* GeometricActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GeometricActivityIndicator.podspec; path = ../GeometricActivityIndicator.podspec; sourceTree = "<group>"; };
 		2D0513CDCCD4C661E4DD8BFA /* Pods-GeometricActivityIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeometricActivityIndicator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeometricActivityIndicator_Tests/Pods-GeometricActivityIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		395CFB022E71A1192FA2DFDD /* Pods_GeometricActivityIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeometricActivityIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GeometricActivityIndicator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricActivityIndicator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* GeometricActivityIndicator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricActivityIndicator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7EFEE995BD49C2EBDF16F414 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7EFEE995BD49C2EBDF16F414 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		967A6CD89CF775E00A29C06D /* Pods_GeometricActivityIndicator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeometricActivityIndicator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9F569B583E033AD00A9CCA /* Pods-GeometricActivityIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeometricActivityIndicator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeometricActivityIndicator_Tests/Pods-GeometricActivityIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCB4F88C848999A69396D57A /* Pods-GeometricActivityIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeometricActivityIndicator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeometricActivityIndicator_Example/Pods-GeometricActivityIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P4PBGN25JV;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P4PBGN25JV;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = D69B024F4AF6EDC20AB73F3F /* Pods-GeometricActivityIndicator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4PBGN25JV;
 				INFOPLIST_FILE = GeometricActivityIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = CCB4F88C848999A69396D57A /* Pods-GeometricActivityIndicator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4PBGN25JV;
 				INFOPLIST_FILE = GeometricActivityIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D0513CDCCD4C661E4DD8BFA /* Pods-GeometricActivityIndicator_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P4PBGN25JV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB9F569B583E033AD00A9CCA /* Pods-GeometricActivityIndicator_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P4PBGN25JV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

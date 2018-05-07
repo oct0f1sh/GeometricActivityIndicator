@@ -1,0 +1,16 @@
+PODS:
+  - GeometricActivityIndicator (0.1.0)
+
+DEPENDENCIES:
+  - GeometricActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  GeometricActivityIndicator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GeometricActivityIndicator: 7d941e0e7e95b182ae38e1a53219c1cd6ffa7ec3
+
+PODFILE CHECKSUM: 30f1629396191c3770cd5dd3442b88ab50c69c0e
+
+COCOAPODS: 1.3.1
