@@ -72,24 +72,24 @@ class ViewController: UIViewController {
 ### Changing Duration
 ```swift
 // changes the stencil animation duration to 3 seconds
-geometricView.stencilAnimDuration = 3
+geometricView.stencilAnimDuration = 3.0
 ```
 
 ```swift
 // changes the shape animation duration to 5 seconds
-geometricView.shapeAnimDuration = 5
+geometricView.shapeAnimDuration = 5.0
 ```
 
 ### Changing Animation Timing
 ```swift
 // changes stencil animation and shape animation to start and end at the same time with a duration of 3 seconds
-geometricView.stencilAnimDuration  = 3
-geometricView.stencilAnimFromValue = 0
-geometricView.stencilAnimToValue   = 1
+geometricView.stencilAnimDuration  =  3.0
+geometricView.stencilAnimFromValue =  0.0
+geometricView.stencilAnimToValue   =  1.0
 
-geometricView.shapeAnimDuration    = 3
-geometricView.shapeAnimFromValue   = 0
-geometricView.shapeAnimToValue     = 1
+geometricView.shapeAnimDuration    =  3.0
+geometricView.shapeAnimFromValue   =  0.0
+geometricView.shapeAnimToValue     =  1.0
 ```
 
 ```swift
@@ -98,10 +98,10 @@ geometricView.shapeAnimToValue     = 1
 //       these values produce the animations shown above
 geometricView.stencilAnimDuration  =  1.5
 geometricView.stencilAnimFromValue = -0.5
-geometricView.stencilAnimToValue   =  2
+geometricView.stencilAnimToValue   =  2.0
 
 geometricView.shapeAnimDuration    =  1.5
-geometricView.shapeAnimFromValue   = -2
+geometricView.shapeAnimFromValue   = -2.0
 geometricView.shapeAnimToValue     =  1.5
 ```
 
