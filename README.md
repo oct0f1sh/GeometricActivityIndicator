@@ -98,13 +98,13 @@ geometricView.shapeAnimToValue     = 1
 // this is the default duration and timing for the stencil and shape animations
 // note: these are the default values when creating a GeometricActivityIndicator.
 //       these values produce the animations shown above
-geometricView.stencilAnimDuration  = 1.5
+geometricView.stencilAnimDuration  =  1.5
 geometricView.stencilAnimFromValue = -0.5
-geometricView.stencilAnimToValue   = 2
+geometricView.stencilAnimToValue   =  2
 
-geometricView.shapeAnimDuration    = 1.5
+geometricView.shapeAnimDuration    =  1.5
 geometricView.shapeAnimFromValue   = -2
-geometricView.shapeAnimToValue     = 1.5
+geometricView.shapeAnimToValue     =  1.5
 ```
 
 ## Author
