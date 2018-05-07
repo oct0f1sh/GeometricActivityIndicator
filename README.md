@@ -5,14 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/GeometricActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/GeometricActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/GeometricActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/GeometricActivityIndicator)
 
+## Animations
+
+The animations included in GeometricActivityIndicator are based upon [Metatron's Solids/Sacred Geometry](http://3rddimension.online.fr/metatron_cube.htm)
+![shape 1](ReadmeAssets/shape1.gif "Shape 1") ![shape 2](ReadmeAssets/shape2.gif "Shape 2")
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-![shape 1](ReadmeAssets/shape1.gif)
-
-## Requirements
-
 ## Installation
 
 GeometricActivityIndicator is available through [CocoaPods](https://cocoapods.org). To install
