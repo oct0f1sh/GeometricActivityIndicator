@@ -42,3 +42,16 @@ class ViewController: UIViewController {
     }
 }
 
+//class ViewController: UIViewController {
+//    var geometricView: GeometricActivityIndicator!
+//
+//    override func viewDidLoad() {
+//        geometricView = GeometricActivityIndicator(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
+//
+//        geometricView.startAnimating()
+//    }
+//
+//    @IBAction func stopButtonTapped(_ sender: Any) {
+//        geometricView.stopAnimating()
+//    }
+//}

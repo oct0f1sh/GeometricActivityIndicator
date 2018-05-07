@@ -17,7 +17,7 @@ The animations included in GeometricActivityIndicator are based upon [Metatron's
 
 ## Usage
 
-### In Storyboard
+### Storyboard
 
 ![storyboard](https://media.giphy.com/media/7zlZ9tOBupkRFfHBcY/giphy.gif)
 
@@ -36,7 +36,28 @@ override func viewDidLoad() {
 }
 ```
 
-__Important:__ GeometricActivityIndicator is a subclass of UIView, not UIActivityIndicatorView, make sure you set the custom class for the correct type. 
+__Important:__ GeometricActivityIndicator is a subclass of UIView, not UIActivityIndicatorView, make sure you set the custom class for the correct element. 
+
+### Programmatically
+
+```swift
+class ViewController: UIViewController {
+    var geometricView: GeometricActivityIndicator!
+
+    override func viewDidLoad() {
+        geometricView = GeometricActivityIndicator(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
+
+        geometricView.startAnimating()
+    }
+
+    @IBAction func stopButtonTapped(_ sender: Any) {
+        geometricView.stopAnimating()
+    }
+}
+```
+
+## Customization
+
 
 ## Installation
 
