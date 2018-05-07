@@ -19,6 +19,8 @@ The animations included in GeometricActivityIndicator are based upon [Metatron's
 
 ### Storyboard
 
+Implementing GeometricActivityIndicator in your project is as setting a custom class for a UIView. Many of the properties are editable using the Attributes Inspector. 
+
 ![storyboard](https://media.giphy.com/media/7zlZ9tOBupkRFfHBcY/giphy.gif)
 
 In your ViewController:
@@ -73,7 +75,7 @@ geometricView.shapeAnimDuration = 5
 
 #### Changing Animation Timing
 ```swift
-// changes stencil animation and shape animation to start and end at the same time
+// changes stencil animation and shape animation to start and end at the same time with a duration of 3 seconds
 geometricView.stencilAnimDuration = 3
 geometricView.stencilAnimFromValue = 0
 geometricView.stencilAnimToValue = 1
@@ -85,6 +87,8 @@ geometricView.shapeAnimToValue = 1
 
 ```swift
 // this is the default duration and timing for the stencil and shape animations
+// note: these are the default values when creating a GeometricActivityIndicator.
+//       these values produce the animations shown above
 geometricView.stencilAnimDuration = 1.5
 geometricView.stencilAnimFromValue = -0.5
 geometricView.stencilAnimToValue = 2
