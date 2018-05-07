@@ -8,12 +8,14 @@
 ## Animations
 
 The animations included in GeometricActivityIndicator are based upon [Metatron's Solids/Sacred Geometry](http://3rddimension.online.fr/metatron_cube.htm)
-![shape 1](ReadmeAssets/shape1.gif "Shape 1") ![shape 2](ReadmeAssets/shape2.gif "Shape 2")
+![shape 1](ReadmeAssets/shape1.gif "Shape 1") ![shape 2](ReadmeAssets/shape2.gif "Shape 2") ![shape 3](ReadmeAssets/shape3.gif "Shape 3")
+![shape 4](ReadmeAssets/shape4.gif "Shape 4") ![shape 5](ReadmeAssets/shape5.gif "Shape 5") ![shape 6](ReadmeAssets/shape6.gif "Shape 6") ![shape 7](ReadmeAssets/shape7.gif "Shape 7")
 
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Installation
 
 GeometricActivityIndicator is available through [CocoaPods](https://cocoapods.org). To install
