@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeometricActivityIndicator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A collection of intricate geometric ActivityIndicator animations that add pizzaz to your projects.'
 
 # This description is used to generate tags and improve search results.
