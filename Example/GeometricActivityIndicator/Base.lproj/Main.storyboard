@@ -31,18 +31,18 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shapeTypeIndex">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="stencilLineWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shapeLineWidth">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MoG-hY-sGb">
-                                <rect key="frame" x="105.5" y="430" width="164" height="78"/>
+                                <rect key="frame" x="105.5" y="559" width="164" height="78"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0cL-cq-rv9">
                                         <rect key="frame" x="0.0" y="0.0" width="164" height="39"/>
@@ -51,7 +51,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="39"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="&lt;">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="leftButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2TM-jG-tnv"/>
@@ -67,7 +67,7 @@
                                                 <rect key="frame" x="134" y="0.0" width="30" height="39"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="&gt;">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="rightButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ugx-6l-tDe"/>
@@ -82,7 +82,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="39"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="START">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="startButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Od-jN-VO5"/>
@@ -92,7 +92,7 @@
                                                 <rect key="frame" x="76" y="0.0" width="56" height="39"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="STOP">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="stopButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sFw-Ij-f5g"/>
@@ -103,12 +103,12 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="z05-8O-T7r" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="130" id="HaJ-gj-E8p"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="MoG-hY-sGb" secondAttribute="bottom" constant="30" id="I87-rN-0Pc"/>
                             <constraint firstItem="z05-8O-T7r" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ZW7-hz-EiF"/>
                             <constraint firstItem="MoG-hY-sGb" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="aUQ-84-PlG"/>
-                            <constraint firstItem="MoG-hY-sGb" firstAttribute="top" secondItem="z05-8O-T7r" secondAttribute="bottom" constant="30" id="wRg-AG-VAn"/>
                         </constraints>
                     </view>
                     <connections>
