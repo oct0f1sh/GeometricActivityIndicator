@@ -42,16 +42,6 @@ class ViewController: UIViewController {
     }
 }
 
-//class ViewController: UIViewController {
-//    var geometricView: GeometricActivityIndicator!
-//
-//    override func viewDidLoad() {
-//        geometricView = GeometricActivityIndicator(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
-//
-//        geometricView.startAnimating()
-//    }
-//
-//    @IBAction func stopButtonTapped(_ sender: Any) {
-//        geometricView.stopAnimating()
-//    }
-//}
+
+//![shape 1](ReadmeAssets/shape1.gif "Shape 1") ![shape 2](ReadmeAssets/shape2.gif "Shape 2") ![shape 3](ReadmeAssets/shape3.gif "Shape 3")
+//![shape 4](ReadmeAssets/shape4.gif "Shape 4") ![shape 5](ReadmeAssets/shape5.gif "Shape 5") ![shape 6](ReadmeAssets/shape6.gif "Shape 6")
