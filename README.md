@@ -69,9 +69,7 @@ class ViewController: UIViewController {
 
 ## Customization
 
-### Changing Animation Timing
-
-#### Changing Duration
+### Changing Duration
 ```swift
 // changes the stencil animation duration to 3 seconds
 geometricView.stencilAnimDuration = 3
@@ -82,7 +80,7 @@ geometricView.stencilAnimDuration = 3
 geometricView.shapeAnimDuration = 5
 ```
 
-#### Changing Animation Timing
+### Changing Animation Timing
 ```swift
 // changes stencil animation and shape animation to start and end at the same time with a duration of 3 seconds
 geometricView.stencilAnimDuration  = 3

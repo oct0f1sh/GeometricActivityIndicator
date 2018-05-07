@@ -28,7 +28,7 @@ GeometricActivityIndicator adds UIViews that animate Metatron's Solids. These sh
   s.source           = { :git => 'https://github.com/oct0f1sh/GeometricActivityIndicator.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/oct0f1sh'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'GeometricActivityIndicator/Classes/**/*'
   
