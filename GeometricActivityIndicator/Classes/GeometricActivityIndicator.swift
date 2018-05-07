@@ -15,7 +15,7 @@ public class GeometricActivityIndicator: UIView {
     // --------------------------
     // MARK - STENCIL ATTRIBUTES
     // --------------------------
-    var nodes: [Ring]
+    fileprivate var nodes: [Ring]
     
     @IBInspectable public var shouldDrawStencil: Bool = true {
         didSet {
@@ -26,10 +26,10 @@ public class GeometricActivityIndicator: UIView {
     public var stencilAnimDuration: CFTimeInterval = 1.5
     
     public var stencilAnimFromValue: Float = -0.5
-    var pausedStencilAnimFromValue: Float = 1
+    fileprivate var pausedStencilAnimFromValue: Float = 1
     
     public var stencilAnimToValue: Float = 2
-    var pausedStencilAnimToValue: Float = 1
+    fileprivate var pausedStencilAnimToValue: Float = 1
     
     @IBInspectable public var stencilLineColor: UIColor = UIColor.darkGray {
         didSet {
@@ -49,10 +49,10 @@ public class GeometricActivityIndicator: UIView {
     public var shapeAnimDuration: CFTimeInterval = 1.5
     
     public var shapeAnimFromValue: Float = -2
-    var pausedShapeAnimFromValue: Float = 1
+    fileprivate var pausedShapeAnimFromValue: Float = 1
     
     public var shapeAnimToValue: Float = 1.5
-    var pausedShapeAnimToValue: Float = 1
+    fileprivate var pausedShapeAnimToValue: Float = 1
     
     @IBInspectable public var shapeTypeIndex: Int = 1 {
         didSet {
@@ -137,14 +137,14 @@ public class GeometricActivityIndicator: UIView {
     // --------------------------
     // MARK - HELPER METHODS
     // --------------------------
-    func reloadOptions() {
+    fileprivate func reloadOptions() {
         layer.sublayers?.forEach({ (layer) in
             layer.removeFromSuperlayer()
         })
         setNeedsDisplay()
     }
     
-    func makeNodes() -> () {
+    fileprivate func makeNodes() -> () {
         let radius: CGFloat = bounds.height / 8
         
         let offset: CGFloat = sqrt( pow(2 * radius, 2) - pow(radius, 2) )
@@ -181,7 +181,7 @@ public class GeometricActivityIndicator: UIView {
     // --------------------------
     // MARK - DRAWING METHOD
     // --------------------------
-    func drawShapeFromCoords(coords: [[Int]], isStencil: Bool) {
+    fileprivate func drawShapeFromCoords(coords: [[Int]], isStencil: Bool) {
         for coord in coords {
             let ring = nodes[coord[0]]
             let target = nodes[coord[1]]
@@ -235,7 +235,7 @@ public class GeometricActivityIndicator: UIView {
     // --------------------------
     // MARK - SHAPE COORDINATES
     // --------------------------
-    func drawCube() -> () {
+    fileprivate func drawCube() -> () {
         
         let cube: [[Int]] = [[0, 1], [1, 2], [2, 12], [12, 13], [13, 14], [14, 0],
                              [3, 4], [4, 5], [5, 9], [9, 10], [10, 11], [11, 3],
@@ -244,7 +244,7 @@ public class GeometricActivityIndicator: UIView {
         drawShapeFromCoords(coords: cube, isStencil: false)
     }
     
-    func drawOctahedron() -> () {
+    fileprivate func drawOctahedron() -> () {
         let coords: [[Int]] = [[0, 1], [1, 2], [2, 12], [12, 13], [13, 14], [14, 0],
                                [3, 4], [4, 5], [5, 9], [9, 10], [10, 11], [11, 3],
                                [12, 14], [14, 1], [1, 12],
@@ -255,7 +255,7 @@ public class GeometricActivityIndicator: UIView {
         drawShapeFromCoords(coords: coords, isStencil: false)
     }
     
-    func drawTetrahedron() -> () {
+    fileprivate func drawTetrahedron() -> () {
         let coords: [[Int]] = [[12, 14], [14, 1], [1, 12],
                                [13, 2], [2, 0], [0, 13],
                                [11, 4], [4, 9], [9, 11],
@@ -264,7 +264,7 @@ public class GeometricActivityIndicator: UIView {
         drawShapeFromCoords(coords: coords, isStencil: false)
     }
     
-    func drawIcosahedron() -> () {
+    fileprivate func drawIcosahedron() -> () {
         let coords: [[Int]] = [[0, 1], [1, 2], [2, 12], [12, 13], [13, 14], [14, 0],
                                [13, 10], [0, 3], [2, 5],
                                [12, 14], [14, 1], [1, 12],
@@ -273,7 +273,7 @@ public class GeometricActivityIndicator: UIView {
         drawShapeFromCoords(coords: coords, isStencil: false)
     }
     
-    func drawUnnamed1() -> () {
+    fileprivate func drawUnnamed1() -> () {
         let coords: [[Int]] = [[0, 1], [1, 2], [2, 12], [12, 13], [13, 14], [14, 0],
                                [12, 10], [12, 5], [12, 11], [12, 4], [12, 6],
                                [2, 9], [2, 4], [2, 10], [2, 3], [2, 6],
@@ -285,7 +285,7 @@ public class GeometricActivityIndicator: UIView {
         drawShapeFromCoords(coords: coords, isStencil: false)
     }
     
-    func drawMetatron(isStencil: Bool = false) -> () {
+    fileprivate func drawMetatron(isStencil: Bool = false) -> () {
         let coords: [[Int]] = [[0, 1], [1, 2], [2, 12], [12, 13], [13, 14], [14, 0],
                                [12, 10], [12, 5], [12, 11], [12, 4], [12, 6],
                                [2, 9], [2, 4], [2, 10], [2, 3], [2, 6],
@@ -304,7 +304,7 @@ public class GeometricActivityIndicator: UIView {
         }
     }
     
-    func drawUnnamed3() -> () {
+    fileprivate func drawUnnamed3() -> () {
         drawCube()
         drawOctahedron()
         drawTetrahedron()
@@ -312,7 +312,7 @@ public class GeometricActivityIndicator: UIView {
     }
 }
 
-class Ring {
+fileprivate class Ring {
     var tag: Int = 0
     var rect: CGRect
     
