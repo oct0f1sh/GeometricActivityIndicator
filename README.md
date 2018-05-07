@@ -5,6 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/GeometricActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/GeometricActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/GeometricActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/GeometricActivityIndicator)
 
+## Installation
+
+GeometricActivityIndicator is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'GeometricActivityIndicator'
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -96,15 +105,6 @@ geometricView.stencilAnimToValue = 2
 geometricView.shapeAnimDuration = 1.5
 geometricView.shapeAnimFromValue = -2
 geometricView.shapeAnimToValue = 1.5
-```
-
-## Installation
-
-GeometricActivityIndicator is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'GeometricActivityIndicator'
 ```
 
 ## Author
