@@ -22,7 +22,7 @@ GeometricActivityIndicator adds UIViews that animate Metatron's Solids. These sh
                        DESC
 
   s.homepage         = 'https://github.com/oct0f1sh/GeometricActivityIndicator'
-#s.screenshots      = 'https://i.imgur.com/rcLA8Em.png'
+  s.screenshots      = 'https://i.imgur.com/rcLA8Em.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'oct0f1sh' => 'duncan@duncanmacdonald.us' }
   s.source           = { :git => 'https://github.com/oct0f1sh/GeometricActivityIndicator.git', :tag => s.version.to_s }
